@@ -621,6 +621,7 @@
       },
       "CongestionTaxCalculator.Persistence.EF/1.0.0": {
         "dependencies": {
+          "Autofac": "8.1.0",
           "CongestionTaxCalculator.Domain": "1.0.0",
           "CongestionTaxCalculator.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0-rc.1.24451.1",
@@ -638,30 +639,6 @@
         },
         "runtime": {
           "CongestionTaxCalculator.Services.dll": {}
-        }
-      },
-      "JetBrains.ReSharper.TestRunner.Merged/2.14.1.106": {
-        "runtime": {
-          "JetBrains.ReSharper.TestRunner.Merged.dll": {
-            "assemblyVersion": "2.14.1.106",
-            "fileVersion": "2.14.1.106"
-          }
-        }
-      },
-      "JetBrains.ReSharper.TestRunner.Abstractions/2.14.1.0": {
-        "runtime": {
-          "JetBrains.ReSharper.TestRunner.Abstractions.dll": {
-            "assemblyVersion": "2.14.1.0",
-            "fileVersion": "2.14.1.0"
-          }
-        }
-      },
-      "JetBrains.ReSharper.TestRunner.Utilities/2.14.1.15": {
-        "runtime": {
-          "JetBrains.ReSharper.TestRunner.Utilities.dll": {
-            "assemblyVersion": "2.14.1.15",
-            "fileVersion": "2.14.1.15"
-          }
         }
       }
     }
@@ -1095,21 +1072,6 @@
     },
     "CongestionTaxCalculator.Services/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "JetBrains.ReSharper.TestRunner.Merged/2.14.1.106": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "JetBrains.ReSharper.TestRunner.Abstractions/2.14.1.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "JetBrains.ReSharper.TestRunner.Utilities/2.14.1.15": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

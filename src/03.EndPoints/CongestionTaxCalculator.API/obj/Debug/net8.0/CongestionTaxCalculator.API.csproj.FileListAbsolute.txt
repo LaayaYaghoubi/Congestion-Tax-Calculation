@@ -102,16 +102,10 @@ C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\Cong
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\CongestionTaxCalculator.Domain.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\CongestionTaxCalculator.Persistence.EF.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\CongestionTaxCalculator.Services.dll
-C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\JetBrains.ReSharper.TestRunner.Merged.dll
-C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\JetBrains.ReSharper.TestRunner.Abstractions.dll
-C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\JetBrains.ReSharper.TestRunner.Utilities.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\CongestionTaxCalculator.Services.pdb
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\CongestionTaxCalculator.Persistence.EF.pdb
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\CongestionTaxCalculator.Contracts.pdb
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\CongestionTaxCalculator.Domain.pdb
-C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\JetBrains.ReSharper.TestRunner.Merged.pdb
-C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\JetBrains.ReSharper.TestRunner.Abstractions.pdb
-C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\bin\Debug\net8.0\JetBrains.ReSharper.TestRunner.Utilities.pdb
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\obj\Debug\net8.0\CongestionTaxCalculator.API.csproj.AssemblyReference.cache
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\obj\Debug\net8.0\CongestionTaxCalculator.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\src\03.EndPoints\CongestionTaxCalculator.API\obj\Debug\net8.0\CongestionTaxCalculator.API.AssemblyInfoInputs.cache

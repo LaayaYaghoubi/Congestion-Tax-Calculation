@@ -173,14 +173,14 @@
         }
       }
     },
-    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\02.Infrastructure\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\02.Infrastructure\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
         "projectName": "CongestionTaxCalculator.Persistence.EF",
-        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\02.Infrastructure\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
         "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\obj\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\02.Infrastructure\\CongestionTaxCalculator.Persistence.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -215,6 +215,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0-rc.1.24451.1, )"
@@ -343,8 +347,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
-                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj"
+              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj": {
+                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj"
+              },
+              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\02.Infrastructure\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
+                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\02.Infrastructure\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj"
               }
             }
           }

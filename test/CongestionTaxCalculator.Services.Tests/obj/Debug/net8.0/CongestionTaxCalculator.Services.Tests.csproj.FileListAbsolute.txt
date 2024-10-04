@@ -205,6 +205,7 @@ C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCal
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\CongestionTaxCalculator.Services.Tests.runtimeconfig.json
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\CongestionTaxCalculator.Services.Tests.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\CongestionTaxCalculator.Services.Tests.pdb
+C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Autofac.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\FluentAssertions.dll
@@ -220,6 +221,7 @@ C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCal
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\layay\Desktop\Projects\Congestion-Tax-Calculation\test\CongestionTaxCalculator.Services.Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll

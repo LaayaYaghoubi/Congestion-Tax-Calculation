@@ -7,19 +7,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
-        <PackageReference Include="FluentAssertions" Version="7.0.0-alpha.4" />
+        <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0"/>
+        <PackageReference Include="FluentAssertions" Version="7.0.0-alpha.4"/>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\01.Core\CongestionTaxCalculator.Services\CongestionTaxCalculator.Services.csproj" />
-      <ProjectReference Include="..\..\CongestionTaxCalculator.Persistence.EF\CongestionTaxCalculator.Persistence.EF.csproj" />
+        <ProjectReference Include="..\..\01.Core\CongestionTaxCalculator.Services\CongestionTaxCalculator.Services.csproj"/>
+        <ProjectReference Include="..\..\02.Infrastructure\CongestionTaxCalculator.Persistence.EF\CongestionTaxCalculator.Persistence.EF.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Configs\" />
+        <Folder Include="Configs\"/>
     </ItemGroup>
 
 </Project>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tWmCO4jxVKHowSz9DHXh5irHqDYa7HkWkWWoqxqZ0XYXXT0o7vJOGZZVHBxFxgCDlZ+8/40TGUqJjrFzQXu74w==",
+  "dgSpecHash": "hOEPxhYmSvzRD58FcN8unNkR7OS//3szzruG8Vo2NY9E+eMqAJqWuxixvigE/I9aXuqc8AkJi8pi3nAMzc8IaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\layay\\.nuget\\packages\\autofac\\8.1.0\\autofac.8.1.0.nupkg.sha512",
     "C:\\Users\\layay\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\layay\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
     "C:\\Users\\layay\\.nuget\\packages\\fluentassertions\\7.0.0-alpha.4\\fluentassertions.7.0.0-alpha.4.nupkg.sha512",

@@ -14,11 +14,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Services", "src\01.Core\CongestionTaxCalculator.Services\CongestionTaxCalculator.Services.csproj", "{3FEE94EE-5285-45AE-B350-ACC465AEA120}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Infrastrcuture", "02.Infrastrcuture", "{7CF6C7C8-C652-403B-9070-5AD93C0F205A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Infrastructure", "02.Infrastructure", "{7CF6C7C8-C652-403B-9070-5AD93C0F205A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Persistence.EF", "src\CongestionTaxCalculator.Persistence.EF\CongestionTaxCalculator.Persistence.EF.csproj", "{DC1A9D09-5CA9-4AC8-8650-A695E7699877}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Persistence.EF", "src\02.Infrastructure\CongestionTaxCalculator.Persistence.EF\CongestionTaxCalculator.Persistence.EF.csproj", "{DC1A9D09-5CA9-4AC8-8650-A695E7699877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Migrations", "src\CongestionTaxCalculator.Migrations\CongestionTaxCalculator.Migrations.csproj", "{E753718A-3A40-4F76-B061-08794DB8BC2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CongestionTaxCalculator.Migrations", "src\02.Infrastructure\CongestionTaxCalculator.Migrations\CongestionTaxCalculator.Migrations.csproj", "{E753718A-3A40-4F76-B061-08794DB8BC2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.EndPoints", "03.EndPoints", "{161D8EC7-4577-4EE6-8FFA-6F6E9C8A282D}"
 EndProject

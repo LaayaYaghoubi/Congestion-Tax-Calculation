@@ -1017,6 +1017,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Autofac": "8.1.0",
           "CongestionTaxCalculator.Domain": "1.0.0",
           "CongestionTaxCalculator.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.0-rc.1.24451.1",
@@ -2984,8 +2985,8 @@
     },
     "CongestionTaxCalculator.Persistence.EF/1.0.0": {
       "type": "project",
-      "path": "../../CongestionTaxCalculator.Persistence.EF/CongestionTaxCalculator.Persistence.EF.csproj",
-      "msbuildProject": "../../CongestionTaxCalculator.Persistence.EF/CongestionTaxCalculator.Persistence.EF.csproj"
+      "path": "../../02.Infrastructure/CongestionTaxCalculator.Persistence.EF/CongestionTaxCalculator.Persistence.EF.csproj",
+      "msbuildProject": "../../02.Infrastructure/CongestionTaxCalculator.Persistence.EF/CongestionTaxCalculator.Persistence.EF.csproj"
     },
     "CongestionTaxCalculator.Services/1.0.0": {
       "type": "project",
@@ -3032,8 +3033,8 @@
             "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj": {
               "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj"
             },
-            "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
-              "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj"
+            "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\02.Infrastructure\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
+              "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\02.Infrastructure\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj"
             }
           }
         }
