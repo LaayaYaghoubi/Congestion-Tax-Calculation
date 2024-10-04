@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj": {}
+    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj": {
+    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj",
         "projectName": "CongestionTaxCalculator.Contracts",
-        "projectPath": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj",
         "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"

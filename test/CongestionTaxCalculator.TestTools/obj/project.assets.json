@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj",
+      "projectUniqueName": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj",
       "projectName": "CongestionTaxCalculator.TestTools",
-      "projectPath": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj",
+      "projectPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj",
       "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\test\\CongestionTaxCalculator.TestTools\\obj\\",
+      "outputPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"

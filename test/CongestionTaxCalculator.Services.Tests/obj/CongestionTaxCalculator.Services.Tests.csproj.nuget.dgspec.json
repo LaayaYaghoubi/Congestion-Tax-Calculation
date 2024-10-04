@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj": {}
+    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj": {
+    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
         "projectName": "CongestionTaxCalculator.Services.Tests",
-        "projectPath": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
         "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\test\\CongestionTaxCalculator.Services.Tests\\obj\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"

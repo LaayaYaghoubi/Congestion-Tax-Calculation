@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {}
+    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
+    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
         "projectName": "CongestionTaxCalculator.Persistence.EF",
-        "projectPath": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
         "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\layay\\RiderProjects\\CongestionTaxCalculator\\src\\CongestionTaxCalculator.Persistence.EF\\obj\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"
