@@ -8,6 +8,7 @@ public class TaxRateEntityMap : IEntityTypeConfiguration<TaxRate>
 {
     public void Configure(EntityTypeBuilder<TaxRate> builder)
     {
+        builder.ToTable("TaxRates");
         builder.HasKey(x => x.Id);
         builder.Property(x => x.Amount).HasPrecision(18, 2).IsRequired();
         builder.Property(x => x.Start).IsRequired();

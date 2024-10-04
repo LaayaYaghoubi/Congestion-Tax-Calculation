@@ -8,6 +8,7 @@ public class HolidayEntityMap : IEntityTypeConfiguration<Holiday>
 {
     public void Configure(EntityTypeBuilder<Holiday> builder)
     {
+        builder.ToTable("Holidays");
         builder.HasKey(x => x.Id);
         builder.Property(x => x.Date).IsRequired();
 

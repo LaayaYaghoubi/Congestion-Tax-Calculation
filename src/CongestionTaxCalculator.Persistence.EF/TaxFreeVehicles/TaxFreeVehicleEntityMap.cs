@@ -8,6 +8,7 @@ public class TaxFreeVehicleEntityMap : IEntityTypeConfiguration<TaxFreeVehicle>
 {
     public void Configure(EntityTypeBuilder<TaxFreeVehicle> builder)
     {
+        builder.ToTable("TaxFreeVehicles");
         builder.HasKey(x => x.Id);
         builder.Property(x => x.VehicleType).IsRequired();
 

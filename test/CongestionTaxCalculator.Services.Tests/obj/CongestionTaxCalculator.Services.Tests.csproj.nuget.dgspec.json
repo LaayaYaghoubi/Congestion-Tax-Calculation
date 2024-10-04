@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj": {}
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj": {
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
-        "projectName": "CongestionTaxCalculator.Services.Tests",
-        "projectPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj",
+        "projectName": "CongestionTaxCalculator.Contracts",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj",
         "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\obj\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,22 +38,338 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj",
+        "projectName": "CongestionTaxCalculator.Domain",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj",
+        "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj",
+        "projectName": "CongestionTaxCalculator.Services",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj",
+        "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj": {
+                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\00.Framework\\CongestionTaxCalculator.Contracts\\CongestionTaxCalculator.Contracts.csproj"
+              },
+              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj": {
+                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
+        "projectName": "CongestionTaxCalculator.Persistence.EF",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
+        "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj": {
+                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj"
+              },
+              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj": {
+                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Services\\CongestionTaxCalculator.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0-rc.1.24451.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0-rc.1.24451.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.0-rc.1.24431.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
+        "projectName": "CongestionTaxCalculator.Services.Tests",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\CongestionTaxCalculator.Services.Tests.csproj",
+        "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.Services.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj": {
+                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.4, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.8.0, )"
+              "version": "[17.11.1, )"
             },
-            "coverlet.collector": {
+            "xunit.core": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[2.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj",
+        "projectName": "CongestionTaxCalculator.TestTools",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\CongestionTaxCalculator.TestTools.csproj",
+        "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\test\\CongestionTaxCalculator.TestTools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj": {
+                "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0-rc.1.24451.1, )"
             },
-            "xunit": {
+            "Microsoft.Data.Sqlite.Core": {
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[9.0.0-rc.1.24451.1, )"
             },
-            "xunit.runner.visualstudio": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[9.0.0-rc.1.24451.1, )"
             }
           },
           "imports": [

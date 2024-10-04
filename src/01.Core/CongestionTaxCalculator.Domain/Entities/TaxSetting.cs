@@ -18,7 +18,7 @@ public class TaxSetting
 
     public HashSet<int> ActiveMonths { get; set; } = [];
 
-    public HashSet<TaxRate> TaxRates { get; } = [];
+    public HashSet<TaxRate> TaxRates { get; set; } = [];
 
     public ICollection<Holiday> Holidays { get; } = [];
 

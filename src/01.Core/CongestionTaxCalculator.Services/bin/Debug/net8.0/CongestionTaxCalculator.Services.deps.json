@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CongestionTaxCalculator.Services/1.0.0": {
+        "dependencies": {
+          "CongestionTaxCalculator.Contracts": "1.0.0",
+          "CongestionTaxCalculator.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CongestionTaxCalculator.Services.dll": {}
+        }
+      },
+      "CongestionTaxCalculator.Contracts/1.0.0": {
+        "runtime": {
+          "CongestionTaxCalculator.Contracts.dll": {}
+        }
+      },
+      "CongestionTaxCalculator.Domain/1.0.0": {
+        "runtime": {
+          "CongestionTaxCalculator.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CongestionTaxCalculator.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CongestionTaxCalculator.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CongestionTaxCalculator.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

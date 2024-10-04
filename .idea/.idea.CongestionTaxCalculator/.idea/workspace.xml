@@ -10,66 +10,167 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85bfdd96-3766-47be-94ca-6e69f6736f1d" name="Changes" comment="add(persistence): add entity maps.">
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/CongestionTaxCalculator.Migrations.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/Migrations/_202410041550_AddTaxSetting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/Migrations/_202410041600_AddTaxRate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/Migrations/_202410041605_AddHoliday.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/Migrations/_202410041610_AddTaxFreeVehicle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/Runner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/CongestionTaxCalculator.Migration.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migration.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migration.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CongestionTaxCalculator.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CongestionTaxCalculator.sln" afterDir="false" />
+    <list default="true" id="85bfdd96-3766-47be-94ca-6e69f6736f1d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/Interfaces/BusinessException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/Interfaces/Repository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/Interfaces/Service.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/Interfaces/UnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/Holidays/Contracts/HolidayRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/TaxFreeVehicles/Contracts/TaxFreeVehicleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/TaxRates/Contracts/TaxRateRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/TaxSettings/Contracts/TaxSettingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/Taxes/Contracts/Dto/CalculateTaxDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/Taxes/Contracts/TaxService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/Taxes/Exceptions/CityToCalculateTaxDoesNotExistException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/Taxes/TaxAppService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/Configs/Services/AutofacBusinessModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/Configs/Services/ConfigAutofac.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/Controllers/CongestionTaxController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/EFDataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/EFUnitOfWork.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/Holidays/EFHolidayRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/Infrastructure/IPersistenceConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/Infrastructure/IPersistenceRegister.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/Infrastructure/PersistenceConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/Infrastructure/PersistenceRegister.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/Infrastructure/TaxPersistence.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/SeedData/Contracts/SeedDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/SeedData/SeedDataAppService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxFreeVehicles/EFTaxFreeVehicleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxRates/EFTaxRateRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxSettings/EFTaxSettingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/TaxServiceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Holidays/HolidayBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Infrastructure/DataBaseConfig/DbContextHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Infrastructure/DataBaseConfig/Unit/BusinessUnitTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Infrastructure/DataBaseConfig/Unit/EfInMemoryDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/TaxFreeVehicles/TaxFreeVehicleBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/TaxRates/TaxRateBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/TaxSettings/TaxSettingBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Taxes/TaxServiceFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CongestionTaxCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CongestionTaxCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/CongestionTaxCalculator.Contracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/CongestionTaxCalculator.Contracts.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/CongestionTaxCalculator.Contracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/CongestionTaxCalculator.Contracts.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/CongestionTaxCalculator.Contracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/CongestionTaxCalculator.Contracts.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/CongestionTaxCalculator.Contracts.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/CongestionTaxCalculator.Contracts.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/CongestionTaxCalculator.Contracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/CongestionTaxCalculator.Contracts.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/Entities/TaxSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/Entities/TaxSetting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/CongestionTaxCalculator.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/CongestionTaxCalculator.Domain.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/Debug/net8.0/CongestionTaxCalculator.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/Debug/net8.0/CongestionTaxCalculator.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/Debug/net8.0/CongestionTaxCalculator.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/Debug/net8.0/CongestionTaxCalculator.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/Debug/net8.0/CongestionTaxCalculator.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/Debug/net8.0/CongestionTaxCalculator.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/Debug/net8.0/CongestionTaxCalculator.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/Debug/net8.0/CongestionTaxCalculator.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/CongestionTaxCalculator.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/CongestionTaxCalculator.Services.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/CongestionTaxCalculator.Services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/CongestionTaxCalculator.Services.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/Debug/net8.0/CongestionTaxCalculator.Services.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/Debug/net8.0/CongestionTaxCalculator.Services.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/Debug/net8.0/CongestionTaxCalculator.Services.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/Debug/net8.0/CongestionTaxCalculator.Services.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/Debug/net8.0/CongestionTaxCalculator.Services.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/Debug/net8.0/CongestionTaxCalculator.Services.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/Debug/net8.0/CongestionTaxCalculator.Services.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/Debug/net8.0/CongestionTaxCalculator.Services.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/01.Core/CongestionTaxCalculator.Services/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/CongestionTaxCalculator.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/CongestionTaxCalculator.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/CongestionTaxCalculator.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/CongestionTaxCalculator.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/CongestionTaxCalculator.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/CongestionTaxCalculator.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/CongestionTaxCalculator.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/CongestionTaxCalculator.API.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/03.EndPoints/CongestionTaxCalculator.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/CongestionTaxCalculator.Migration.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/CongestionTaxCalculator.Migration.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/CongestionTaxCalculator.Migration.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/CongestionTaxCalculator.Migration.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/CongestionTaxCalculator.Migration.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/CongestionTaxCalculator.Migration.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/Debug/net8.0/CongestionTaxCalculator.Migration.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migration.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/Debug/net8.0/CongestionTaxCalculator.Migration.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/Debug/net8.0/CongestionTaxCalculator.Migration.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migration.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/Debug/net8.0/CongestionTaxCalculator.Migration.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migration.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/Debug/net8.0/CongestionTaxCalculator.Migration.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migration/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/Migrations/_202410041550_AddTaxSetting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/Migrations/_202410041550_AddTaxSetting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/bin/Debug/net8.0/CongestionTaxCalculator.Migrations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/bin/Debug/net8.0/CongestionTaxCalculator.Migrations.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/bin/Debug/net8.0/CongestionTaxCalculator.Migrations.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/bin/Debug/net8.0/CongestionTaxCalculator.Migrations.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/bin/Debug/net8.0/CongestionTaxCalculator.Migrations.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/bin/Debug/net8.0/CongestionTaxCalculator.Migrations.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/CongestionTaxCalculator.Migrations.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/CongestionTaxCalculator.Migrations.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/CongestionTaxCalculator.Migrations.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/ref/CongestionTaxCalculator.Migrations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/ref/CongestionTaxCalculator.Migrations.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/refint/CongestionTaxCalculator.Migrations.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/refint/CongestionTaxCalculator.Migrations.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/CongestionTaxCalculator.Persistence.EF.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/CongestionTaxCalculator.Persistence.EF.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/Holidays/HolidayEntityMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/Holidays/HolidayEntityMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxFreeVehicles/TaxFreeVehicleEntityMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxFreeVehicles/TaxFreeVehicleEntityMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxRates/TaxRateEntityMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxRates/TaxRateEntityMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxSettings/TaxSettingEntityMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/TaxSettings/TaxSettingEntityMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/CongestionTaxCalculator.Persistence.EF.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/CongestionTaxCalculator.Persistence.EF.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/CongestionTaxCalculator.Persistence.EF.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/CongestionTaxCalculator.Persistence.EF.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/Debug/net8.0/CongestionTaxCalculator.Persistence.EF.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/CongestionTaxCalculator.Persistence.EF/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/CongestionTaxCalculator.Services.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/CongestionTaxCalculator.Services.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/CongestionTaxCalculator.Services.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/CongestionTaxCalculator.Services.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/CongestionTaxCalculator.Services.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/CongestionTaxCalculator.Services.Tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/CongestionTaxCalculator.Services.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/CongestionTaxCalculator.Services.Tests.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/Debug/net8.0/CongestionTaxCalculator.Services.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.Services.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/CongestionTaxCalculator.TestTools.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/CongestionTaxCalculator.TestTools.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/CongestionTaxCalculator.TestTools.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/CongestionTaxCalculator.TestTools.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/CongestionTaxCalculator.TestTools.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/CongestionTaxCalculator.TestTools.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/CongestionTaxCalculator.TestTools.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/CongestionTaxCalculator.TestTools.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/Debug/net8.0/CongestionTaxCalculator.TestTools.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/Debug/net8.0/CongestionTaxCalculator.TestTools.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/Debug/net8.0/CongestionTaxCalculator.TestTools.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/Debug/net8.0/CongestionTaxCalculator.TestTools.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/Debug/net8.0/CongestionTaxCalculator.TestTools.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/Debug/net8.0/CongestionTaxCalculator.TestTools.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/Debug/net8.0/CongestionTaxCalculator.TestTools.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/Debug/net8.0/CongestionTaxCalculator.TestTools.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,19 +188,30 @@
     &quot;assignee&quot;: &quot;LaayaYaghoubi&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LaayaYaghoubi/Congestion-Tax-Calculation.git",
-    "accountId": "4e7ec8b4-b45b-4d74-ad6b-5d9c4d031248"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LaayaYaghoubi/Congestion-Tax-Calculation.git&quot;,
+    &quot;accountId&quot;: &quot;4e7ec8b4-b45b-4d74-ad6b-5d9c4d031248&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02af4266553b478cb200d712a1cde1ca7000/fb/dc0d0f17/ServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fba9afd29efa49229d2dd911da0bdfedc8e910/99/8e323469/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/00.Framework/CongestionTaxCalculator.Contracts/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/layay/Desktop/Congestion-Tax-Calculation/src/03.EndPoints/CongestionTaxCalculator.API/obj/Debug/net8.0/CongestionTaxCalculator.API.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/layay/Desktop/Projects/Congestion-Tax-Calculation/src/CongestionTaxCalculator.Migrations/Migrations/_202410041550_AddTaxSetting.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/layay/Desktop/Projects/Congestion-Tax-Calculation/src/CongestionTaxCalculator.Migrations/Migrations/_202410041550_AddTaxSetting.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/CongestionTaxCalculator.Migrations/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Holidays/HolidayBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Infrastructure/DataBaseConfig/DbContextHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Infrastructure/DataBaseConfig/Unit/BusinessUnitTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/Infrastructure/DataBaseConfig/Unit/EfInMemoryDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/TaxFreeVehicles/TaxFreeVehicleBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/TaxRates/TaxRateBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/CongestionTaxCalculator.TestTools/TaxSettings/TaxSettingBuilder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -115,7 +227,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.CongestionTaxCalculator.API: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.CongestionTaxCalculator.Migration.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ff1f7f67-3280-47f8-9d01-a44507614d3a.executor&quot;: &quot;Debug&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -132,7 +247,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.CongestionTaxCalculator.Migration">
+  <component name="RunManager" selected=".NET Launch Settings Profile.CongestionTaxCalculator.API: http">
     <configuration name="CongestionTaxCalculator.Migration" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -206,7 +321,11 @@
       <option name="presentableId" value="Default" />
       <updated>1728058864923</updated>
       <workItem from="1728058866063" duration="1029000" />
-      <workItem from="1728060333597" duration="2249000" />
+      <workItem from="1728060333597" duration="7773000" />
+      <workItem from="1728068924735" duration="188000" />
+      <workItem from="1728069128832" duration="167000" />
+      <workItem from="1728069454720" duration="34000" />
+      <workItem from="1728069529335" duration="3328000" />
     </task>
     <task id="LOCAL-00001" summary="feat(architecture): add congestion tax calculator project architecture">
       <option name="closed" value="true" />
@@ -240,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728061544865</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add(migration): add all necessary migration.">
+      <option name="closed" value="true" />
+      <created>1728062829581</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728062829581</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,12 +375,24 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="feat(architecture): add congestion tax calculator project architecture" />
     <MESSAGE value="feat: init project" />
     <MESSAGE value="feat(domain): add entities." />
     <MESSAGE value="add(persistence): add entity maps." />
-    <option name="LAST_COMMIT_MESSAGE" value="add(persistence): add entity maps." />
+    <MESSAGE value="add(migration): add all necessary migration." />
+    <option name="LAST_COMMIT_MESSAGE" value="add(migration): add all necessary migration." />
   </component>
 </project>

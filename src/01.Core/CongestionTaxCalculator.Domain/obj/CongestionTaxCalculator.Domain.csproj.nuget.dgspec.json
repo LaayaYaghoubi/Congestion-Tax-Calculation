@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj": {}
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj": {
+    "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj",
         "projectName": "CongestionTaxCalculator.Domain",
-        "projectPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj",
+        "projectPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\CongestionTaxCalculator.Domain.csproj",
         "packagesPath": "C:\\Users\\layay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\obj\\",
+        "outputPath": "C:\\Users\\layay\\Desktop\\Projects\\Congestion-Tax-Calculation\\src\\01.Core\\CongestionTaxCalculator.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\layay\\AppData\\Roaming\\NuGet\\NuGet.Config"

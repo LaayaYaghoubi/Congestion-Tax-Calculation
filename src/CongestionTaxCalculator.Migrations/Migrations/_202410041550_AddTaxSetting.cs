@@ -8,12 +8,13 @@ public class _202410031550_AddTaxSetting :Migration
         Create.Table("TaxSettings")
             .WithColumn("Id").AsInt64().Identity().NotNullable().PrimaryKey()
             .WithColumn("CityName").AsString().NotNullable()
-            .WithColumn("MaxTaxPerDay").AsDecimal(18,2).NotNullable()
+            .WithColumn("IsWeekendTaxFree").AsBoolean().NotNullable()
+            .WithColumn("MaxTaxPerDay").AsDecimal(18, 2).NotNullable()
             .WithColumn("SingleChargeIntervalMinutes").AsInt32().NotNullable()
             .WithColumn("IsHolidayTaxFree").AsBoolean().NotNullable()
             .WithColumn("IsDayBeforeHolidayTaxFree").AsBoolean().NotNullable()
             .WithColumn("IsDayAfterHolidayTaxFree").AsBoolean().NotNullable()
-            .WithColumn("IsWeekendTaxFree").AsBoolean().NotNullable();
+            .WithColumn("ActiveMonths").AsString().NotNullable();
     }
 
     public override void Down()
