@@ -5,9 +5,9 @@ public class TaxSetting
     public long Id { get; set; }
     public string CityName { get; set; } = null!;
 
-    public long MaxTaxPerDay { get; set; }
+    public decimal MaxTaxPerDay { get; set; }
 
-    public uint SingleChargeIntervalMinutes { get; set; }
+    public int SingleChargeIntervalMinutes { get; set; }
 
     public bool IsHolidayTaxFree { get; set; }
 
