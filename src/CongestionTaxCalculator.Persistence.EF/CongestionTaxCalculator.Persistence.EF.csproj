@@ -6,4 +6,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0-rc.1.24451.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\01.Core\CongestionTaxCalculator.Domain\CongestionTaxCalculator.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

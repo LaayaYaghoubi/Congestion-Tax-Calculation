@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "YVpF87phZNWd0NflCboR8QET1vN3uU8J+ZPSokydm5JJ6Qza4Y9luz+TvnO+nKR3bq7UR2VEEfbkVZJ+bdi+lQ==",
+  "dgSpecHash": "DkiEGd5+K0Oeeq48hIgw+Yv92mhMDVkklyLwIovrk1Ja9dC90eSAM1pnWRazihMJFUJk/G2tzfkIwnVPblnBBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\layay\\Desktop\\Congestion-Tax-Calculation\\src\\CongestionTaxCalculator.Persistence.EF\\CongestionTaxCalculator.Persistence.EF.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0-rc.1.24451.1\\microsoft.entityframeworkcore.9.0.0-rc.1.24451.1.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0-rc.1.24451.1\\microsoft.entityframeworkcore.abstractions.9.0.0-rc.1.24451.1.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-rc.1.24451.1\\microsoft.entityframeworkcore.analyzers.9.0.0-rc.1.24451.1.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.0-rc.1.24431.7\\microsoft.extensions.caching.abstractions.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.0-rc.1.24431.7\\microsoft.extensions.caching.memory.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-rc.1.24431.7\\microsoft.extensions.dependencyinjection.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-rc.1.24431.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0-rc.1.24431.7\\microsoft.extensions.logging.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0-rc.1.24431.7\\microsoft.extensions.logging.abstractions.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.extensions.options\\9.0.0-rc.1.24431.7\\microsoft.extensions.options.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-rc.1.24431.7\\microsoft.extensions.primitives.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\layay\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0-rc.1.24431.7\\system.diagnostics.diagnosticsource.9.0.0-rc.1.24431.7.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CongestionTaxCalculator.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8280d909630687aaa683949d6745d355bfd4b75d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d3d26620a1979b858a843937d8ae025bd288578")]
 [assembly: System.Reflection.AssemblyProductAttribute("CongestionTaxCalculator.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CongestionTaxCalculator.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
